@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+}
+
+/* header style */
+.title {
+    height: 60px;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 7%;
+}
+
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 400px 400px;
+}
+
+.item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* buttons style */
+.likebtn {
+    height: 50px;
+    width: 50px
+}
+
+.delete-btnimg {
+    height: 50px;
+    width: 50px
+}
